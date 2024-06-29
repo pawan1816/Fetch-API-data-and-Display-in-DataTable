@@ -7,6 +7,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="table">
+        <div class="tab_head_container">
+            <div class="page_limit">
+                <span>Shows</span>
+                <select id="table_size">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+                <span> entries</span>
+            </div>
+            <div class="tab_filter_container">
+                <input type="text" id="tab_filter_text">
+                <button id="tab_filter_button" class="active">Filter</button>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th colName="rank">Rank</th>
+                    <th colName="name">Name</th>
+                    <th colName="year">Year</th>
+                    <th colName="marks">Total Marks</th>
+                    <th colName="percentage">Percentage</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+        <div class="footer">
+            <span></span>
+            <div class="index_buttons">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
